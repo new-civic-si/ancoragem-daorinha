@@ -1,0 +1,49 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* Estilizando os títulos */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+}
+
+/* Estilizando os parágrafos */
+p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Botões de navegação */
+a {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+/* Adicionando um contêiner para centralizar o conteúdo */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: auto;
+}
